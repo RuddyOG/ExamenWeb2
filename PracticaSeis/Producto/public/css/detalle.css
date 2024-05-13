@@ -1,0 +1,44 @@
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.div12 {
+    margin-bottom: 20px;
+}
+
+.div12 h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.btnvolver {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btnvolver a {
+    color: white;
+    text-decoration: none;
+}
+
+.btnvolver:hover {
+    background-color: #218838;
+}

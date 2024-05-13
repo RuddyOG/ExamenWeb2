@@ -1,0 +1,95 @@
+.tabla1 {
+    background-color: #20345b;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    height: 30%;
+}
+.tabla12 {
+    background-color: #dfcba4;
+    padding: 10px;
+    border: whitesmoke;
+    border-radius: 5px;
+}
+.fila {
+    margin-top: 5%;
+    padding: 0;
+}
+.btn-danger, .fa-trash-alt {
+    background-color: transparent;
+}
+.form-control {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+.btn-success {
+    width: 50%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+.btn {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.btn i {
+    margin-right: 5px;
+}
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+/* Estilos para la modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Ajustar el tamaño de la modal */
+    border-radius: 5px;
+    text-align: center;
+}
+.btn-yes, .btn-no {
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-yes {
+    background-color: #dc3545; /* Color de fondo del botón "Sí" */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.btn-yes:hover {
+    background-color: #c82333; /* Color de fondo del botón "Sí" al pasar el ratón */
+}
+.btn-no {
+    background-color: #6c757d; /* Color de fondo del botón "No" */
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.btn-no:hover {
+    background-color: #5a6268; /* Color de fondo del botón "No" al pasar el ratón */
+}
